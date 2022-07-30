@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: white;
+}
+
+img.logo{
+    width: 82px;
+    float: left;
+}
+
+span.logo {
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.img_home {
+    background-image: url("../img/bg_home.jpg");
+    background-position: center;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+#about{
+    line-height: 40px;
+}
+
+.pop{
+    background-color: white;
+    opacity: 60%;
+    font-size: 48px;
+    position: absolute;
+}
+
+footer{
+    padding-top: 20px;
+}
+
+footer img.logo{
+    width: 80%px;
+    float: none;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer a{
+    color: gray;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+#contact{
+    color: gray;
+}
+
+#social_medias{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px){
+    img.logo{
+        width: 0;
+    }
+
+    .pop{
+        background-color: white;
+        opacity: 60%;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    footer img.logo{
+        width: 20%;
+        display: flex;
+        margin-left: 100px;
+    }
+
+    footer span.logo{
+        margin: 10px 10px;
+        font-size: 12px;
+        display: flex;
+        margin-left: 100px;
+    }
+
+    footer{
+        font-size: 12px;
+        text-align: left;
+    }
+}
